@@ -46,6 +46,7 @@ for (glob("$dir/*.zip")) {
   unlink $_;
 }
 
+@processlist = map ($_, glob("$dir/*.pdf")) unless @processlist;
 foreach (@processlist) {
   eval {
     my $javaOcrObj = new Ocr();
