@@ -1,4 +1,4 @@
-###pdf-layer-remover
+### pdf-layer-remover
 
 A test utility using the iText library to remove optional content groups from pdf files.
 
